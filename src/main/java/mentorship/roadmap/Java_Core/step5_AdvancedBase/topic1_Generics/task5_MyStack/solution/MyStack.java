@@ -11,19 +11,19 @@ public class MyStack<T> {
         elements.add(element);
     }
 
-    public T pop() {
-        if (isEmpty()) {
-            throw new IllegalStateException("Стек пуст");
-        }
-        return elements.removeLast();
-    }
-
-    public T peek() {
-        if (isEmpty()) {
-            throw new IllegalStateException("Стек пуст");
-        }
-        return elements.getLast();
-    }
+//    public T pop() {
+//        if (isEmpty()) {
+//            throw new IllegalStateException("Стек пуст");
+//        }
+//        return elements.removeLast();
+//    }
+//
+//    public T peek() {
+//        if (isEmpty()) {
+//            throw new IllegalStateException("Стек пуст");
+//        }
+//        return elements.getLast();
+//    }
 
     public boolean isEmpty() {
         return elements.isEmpty();
